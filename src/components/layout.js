@@ -1,49 +1,42 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from "gatsby"
 
-import Header from './header'
-import './layout.css'
 
-const Layout = ({ children, data }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
-      <>
-        <Helmet
-          title={data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
-          ]}
-        />
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: '0 auto',
-            maxWidth: 960,
-            padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
-          }}
-        >
-          {children}
-        </div>
-      </>
-    )}
-  />
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
+const TemplateWrapper = ({ children }) => (
+  <>
+    <Helmet>
+        <meta charSet="UTF-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Learn to build high performance javascript applications. Our training includes courses and projects for front end development and Wordpress" />
+        <meta name="keywords" content="Learn to build high performance javascript applications. Our training includes courses and projects for front end development and Wordpress" />
+        <meta name="author" content="Pxlart Design" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta property="og:title" content="Learn to build high performance javascript applications. Our training includes courses and projects for front end development and Wordpress." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://pxlart.design" />
+        <meta property="og:image" content="/static/images/fav-icon/favicon.png" alt title="this is the title" />
+        <meta property="og:description" content="Pxlart design - Learn to build high performance javascript applications. Our training includes courses and projects for front end development and Wordpress" />
+
+
+        <title>
+          Pxlart Design Web Development Training
+        </title>
+
+	    <link rel="icon" type="image/png" sizes="56x56" href="/static/images/fav-icon/favicon.png" />    
+    </Helmet>
+  
+    <div>
+      {children}
+    </div>
+  </>
 )
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+TemplateWrapper.propTypes = {
+  children: PropTypes.any,
 }
 
-export default Layout
+export default TemplateWrapper

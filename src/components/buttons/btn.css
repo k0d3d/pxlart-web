@@ -1,0 +1,17 @@
+.btn-blue {
+  background-color: #2F64ED;
+}
+.btn-xs {
+  padding: 0.175rem .55rem;
+  font-size: 12px; 
+  color: white;  
+}
+
+.btn {
+  border-radius: 18px;
+}
+
+.btn figure {
+  margin-left: 4px;
+  display: inline;
+}

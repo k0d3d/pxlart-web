@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './layout.css'
 
 
 const TemplateWrapper = ({ children }) => (
@@ -26,7 +27,8 @@ const TemplateWrapper = ({ children }) => (
           Pxlart Design Web Development Training
         </title>
 
-	    <link rel="icon" type="image/png" sizes="56x56" href="/static/images/fav-icon/favicon.png" />    
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat" rel="stylesheet" />
+        <link rel="icon" type="image/png" sizes="56x56" href="/static/images/fav-icon/favicon.png" />    
     </Helmet>
   
     <div>

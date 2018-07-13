@@ -21,59 +21,15 @@ figure.svgbg:nth-of-type(2) {
     top: 252px;
     z-index: -2;
 }
-figure.svgbg:nth-of-type(3) {
-  width: 320.18px;
-  height: 107px;
-    right: 260px;
-    top: 362px;
-    -webkit-transform: rotate(-0.4deg);
-    transform: rotate(-0.4deg);
-    z-index: 0;
-}
-figure.svgbg:nth-of-type(4) {
-  width: 277.27px;
-  height: 92.66px;
-    right: 37px;
-    top: 363.95px;
-  transform: rotate(-0.4deg);
-}
 
-figure.svgbg:nth-of-type(5) {
-width: 402.95px;
-    height: 62.5px;
-    right: 511.34px;
-    top: 450.53px;
-    -webkit-transform: rotate(-23.38deg);
-    transform: rotate(-4.38deg);
-}
-figure.svgbg:nth-of-type(6) {
-  width: 899.14px;
-  height: 443.08px;
-    right: -150px;
-    top: 320px;
-  z-index: -2;
-}
-
-figure.svgbg:nth-of-type(7) {
-  width: 1262px;
-  height: 276.17px;
-  left: 180px;
-  top: 772px;
-
-  background: linear-gradient(
-      198.49deg,
-      #ffffff 17.86%,
-      rgba(255, 255, 255, 0) 69.78%
-    ),
-    #6075b0;
-}
 
 
 .main-title {
   padding-left: 15px;
+  text-align: right;
 }
 
 #hero h1, #hero h3 {
   margin-top: 0;
-  margin-bottom: 0
+  margin-bottom: 10px;
 }

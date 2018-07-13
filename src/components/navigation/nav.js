@@ -10,7 +10,7 @@ const NavBar = () => (
     <a className="navbar-brand" href="#">
       <img src={Logo}  alt='pxlart logo'/>
     </a>
-    <DropdownBtn btnText="Training" btnSize="btn-xs"></DropdownBtn>
+    <DropdownBtn btnText="Training" btnSize="btn-xs" btnClasses="btn-blue-outline"></DropdownBtn>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

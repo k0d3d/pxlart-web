@@ -1,10 +1,25 @@
 .btn-blue {
   background-color: #2F64ED;
 }
+.btn-blue-outline {
+  border: solid 1px #2F64ED;
+  background-color: #fff;
+  border: solid 1px #2F64ED;
+  color: #2F64ED;
+}
+
+.btn-red {
+  background-color: #EB5757;
+}
 .btn-xs {
   padding: 0.175rem .55rem;
   font-size: 12px; 
-  color: white;  
+}
+.btn-bold {
+  color: white;
+  box-shadow: 0 4px 4px rgb(99, 35, 35);
+  font-weight: 800;
+  min-width: 169px;
 }
 
 .btn {

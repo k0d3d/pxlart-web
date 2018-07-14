@@ -18,15 +18,14 @@ const Hero = () => (
             and Wordpress.
           </p>
           <p>
-            <ButtonBtn btnClasses="btn-red btn-bold" btnText='Enroll today'></ButtonBtn>
+            <ButtonBtn btnClasses="btn-red btn-home-hero-cta" btnText='Enroll today'></ButtonBtn>
           </p>
 
         </div>
       </div>
       <div className="col">
-        <figure className="hero-vector-img ml-auto">
-          <img src={herovector} alt="coding is fun here" />
-        </figure>
+        <div className="hero-vector-img ml-auto">
+        </div>
       </div>
     </div>
   </section>

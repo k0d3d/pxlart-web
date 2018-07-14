@@ -22,11 +22,26 @@
   min-width: 169px;
 }
 
+.btn-home-hero-cta {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+    font-size: 1em;
+    padding: 1rem 3.5rem;  
+    color: white;
+}
+
 .btn {
   border-radius: 18px;
+  font-weight: 800;
+}
+.btn:hover {
+  box-shadow: 0 12px 18px 0 rgba(0,0,0,0.4);
 }
 
 .btn figure {
   margin-left: 4px;
   display: inline;
+}
+
+.btn-underlined {
+  border-bottom: solid 2px #EB5757;
 }

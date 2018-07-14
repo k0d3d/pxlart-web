@@ -1,6 +1,10 @@
 .hero-vector-img {
   width: 417px;
-  z-index: 7;
+  /* z-index: 7; */
+  background-image: url(./images/hero-side.jpg);
+  background-size: 417px;
+  height: 433px;
+  border-radius: 0 10px 10px 0;
 }
 
 figure.svgbg {
@@ -25,11 +29,15 @@ figure.svgbg:nth-of-type(2) {
 
 
 .main-title {
-  padding-left: 15px;
+  padding-left: 35px;
   text-align: right;
 }
 
 #hero h1, #hero h3 {
   margin-top: 0;
   margin-bottom: 10px;
+}
+#hero .row {
+  background-color: #ececec;
+  border-radius: 10px;
 }

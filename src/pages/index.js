@@ -14,12 +14,14 @@ const IndexPage = () => (
   <Layout>
     <div className='container'>
       <NavBar></NavBar>
-      <Hero></Hero>
-      <FoundationClass></FoundationClass>
-      <WhyHook></WhyHook>
-      <Cvbp></Cvbp>
-      <WebinarSection></WebinarSection>
-      <ContactSection></ContactSection>
+      <main>
+        <Hero></Hero>
+        <FoundationClass></FoundationClass>
+        <WhyHook></WhyHook>
+        <Cvbp></Cvbp>
+        <WebinarSection></WebinarSection>
+        <ContactSection></ContactSection>
+      </main>
     </div>
   </Layout>
 )

@@ -27,7 +27,7 @@ const TemplateWrapper = ({ children }) => (
           Pxlart Design Web Development Training
         </title>
 
-        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Quicksand" rel="stylesheet" />
         <link rel="icon" type="image/png" sizes="56x56" href="/static/images/fav-icon/favicon.png" />    
     </Helmet>
   

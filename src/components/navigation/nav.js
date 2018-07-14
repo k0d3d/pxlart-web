@@ -7,11 +7,11 @@ import DropdownBtn from '../buttons/dropdown'
 
 const NavBar = () => (
   <nav className="navbar navbar-expand-lg navbar-light">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" >
       <img src={Logo}  alt='pxlart logo'/>
     </a>
     <DropdownBtn btnText="Training" btnSize="btn-xs" btnClasses="btn-blue-outline"></DropdownBtn>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" ariaControls="navbarSupportedContent" ariaExpanded="false" ariaLabel="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
 
@@ -30,7 +30,7 @@ const NavBar = () => (
           <a href="#signin" className="nav-link">Sign In</a>
         </li>  
         <li>
-          <a href="#enroll" className="nav-link">Get Started</a>
+          <a href="#enroll" className="nav-link btn-underlined">Get Started</a>
         </li>  
 
       </ul>

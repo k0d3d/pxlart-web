@@ -1,0 +1,73 @@
+
+.foundation-sale {
+  text-align: center
+}
+.foundation-sale h4 {
+  font-weight: bold;
+}
+
+.comfy-borders{
+  padding: 10px 15px;
+  border-radius: 10px 0 10px 0;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0 6px 10px #2d2d2d73;
+  position: relative;
+  margin-left: 50px;
+  z-index: 1;
+}
+.comfy-borders:nth-child(2n) {
+  margin-top: -6px;
+  box-shadow: 0 6px 10px #2d2d2dba;
+  z-index: 0;
+  /* padding-top: 0px; */
+  border-radius: 10px 10px 10px 0;
+}
+
+.comfy-borders:nth-child(odd) {
+  display: inline-block;
+  border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.comfy-borders h5 {
+  font-weight: bold;
+}
+.comfy-borders h5 {
+  margin-bottom: 0;
+  font-family: Raleway;
+  font-size: 1.5em;
+}
+.comfy-borders article {
+  font-weight: 200;
+
+}
+.centered-box {
+  margin-top: 50px;
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid 1px #dddddd;
+}
+
+.centered-box .row:first-child {
+  margin: 0;
+  background: linear-gradient(315deg, rgba(255, 0, 140, 0.8) 0%, rgba(20, 34, 102, 0.7) 71%),  url(./images/jean-678055-unsplash.jpg) 80% ;
+  background-color: #21D4FD;
+  background-size: 1000px; 
+  background-position: 0 0, 65px 0px;
+  padding: 15px 10px;
+    
+/* background-image: linear-gradient(315deg, #21D4FDAD 0%, #B721FF 71%); */
+
+/* background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); */
+} 
+.centered-box .row:nth-child(2) {
+  padding: 30px;
+  background-color: var(--lightblue);
+  margin: 0;
+  margin-top: -85px;
+}
+.centered-box .row:nth-child(2) button {
+  float: right;
+}

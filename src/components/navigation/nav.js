@@ -1,6 +1,6 @@
 import React from'react'
 
-import Logo from './brand.png'
+import Logo from './logo.png'
 import './nav.css'
 
 import DropdownBtn from '../buttons/dropdown'
@@ -11,9 +11,6 @@ const NavBar = () => (
       <img src={Logo}  alt='pxlart logo'/>
     </a>
     <DropdownBtn btnText="Training" btnSize="btn-xs" btnClasses="btn-blue-outline"></DropdownBtn>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" ariaControls="navbarSupportedContent" ariaExpanded="false" ariaLabel="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-auto">

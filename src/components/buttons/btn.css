@@ -1,5 +1,13 @@
+
+
+
 .btn-blue {
-  background-color: #2F64ED;
+  background-color: var(--maincolor);
+  color: white;
+  font-family: var(--buttonfont);  
+}
+.btn-blue:hover { 
+  color: white;
 }
 .btn-blue-outline {
   border: solid 1px #2F64ED;
@@ -9,7 +17,12 @@
 }
 
 .btn-red {
-  background-color: #EB5757;
+  /* background-color: #EB5757; */
+  background-color: var(--secondarycolor);
+  color: white;
+  font-family: var(--buttonfont);
+  font-weight: 800;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
 }
 .btn-xs {
   padding: 0.175rem .55rem;
@@ -34,7 +47,7 @@
   font-weight: 800;
 }
 .btn:hover {
-  box-shadow: 0 12px 18px 0 rgba(0,0,0,0.4);
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
 }
 
 .btn figure {
@@ -44,4 +57,11 @@
 
 .btn-underlined {
   border-bottom: solid 2px #EB5757;
+}
+.btn-purplish {
+  background: var(--purpleish);
+  color: white;
+}
+.btn-purplish:hover{
+  color: white;
 }

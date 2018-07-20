@@ -1,0 +1,24 @@
+.right-image-fade {
+  background-image: url(./images/diego-ph-249471-unsplash.jpg);
+  background-size: cover;
+}
+.right-image-fade .extra-box {
+    background-color: white;
+    width: 50px;
+    height: calc(100% - 100px);
+    position: relative;
+    left: -18px;
+}
+#why-hook {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#why-hook h5 {
+    margin-top: 10px;
+    font-weight: 700;
+}
+#why-hook .p-50 {
+  padding: 30px;
+  padding-bottom: 100px;
+}

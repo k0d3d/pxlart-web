@@ -1,3 +1,5 @@
+@import "../../../styles/palette.css";
+
 .hero-vector-img {
   width: 417px;
   /* z-index: 7; */
@@ -29,15 +31,23 @@ figure.svgbg:nth-of-type(2) {
 
 
 .main-title {
-  padding-left: 35px;
-  text-align: right;
+    text-align: right;
+    width: 70%;
+    /* display: inline-block; */
+    float: right;
 }
 
 #hero h1, #hero h3 {
   margin-top: 0;
   margin-bottom: 10px;
 }
+#hero {
+  color: white;
+}
+#hero p {
+  font-family: Raleway;
+}
 #hero .row {
-  background-color: #ececec;
+  background-color: var(--maincolor);
   border-radius: 10px;
 }

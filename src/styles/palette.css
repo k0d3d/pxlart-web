@@ -1,0 +1,17 @@
+/* Coolors Exported Palette - coolors.co/142266-b2caff-d1e1ff-bf00ff-ff008c */
+
+
+/* RGB */
+:root {
+--maincolor: rgba(20, 34, 102, 1);
+--interactivecolor: rgba(178, 202, 255, 1);
+--lightblue: rgba(209, 225, 255, 1);
+--purpleish: rgba(191, 0, 255, 1);
+--secondarycolor: rgba(255, 0, 140, 1);
+--shadeofgray: #f8f9fa;
+--shadeofgraydarker: #c5c5c5;
+--subtleshadow: 0 5px 15px var(--shadeofgraydarker);
+}
+:root {
+  --boxradius: 10px;
+}

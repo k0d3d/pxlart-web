@@ -1,0 +1,5 @@
+.webinar-section {
+  margin-top: 50px;
+  background: var(--lightblue);
+  border-radius: var(--boxradius);
+}

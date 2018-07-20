@@ -1,0 +1,22 @@
+#cvbp {
+  background: url(./images/wes-hicks-480398-unsplash.jpg);
+      width: 100vw;
+    position: relative;
+    left: -104px;
+    background-color: white;
+    background-position-y: 255px;
+    background-repeat: no-repeat;
+        background-position-x: -84px;
+}
+
+.full-image-t .col-p {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.full-image-t .smaller-text {
+  font-size: 0.9em;
+}
+#cvbp .col-6:nth-child(odd){
+  padding-right: 7.5px;
+}

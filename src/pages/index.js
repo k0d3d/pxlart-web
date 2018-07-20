@@ -8,6 +8,8 @@ import Cvbp from '../components/sections/cbvp'
 import WebinarSection from "../components/sections/webinars";
 import FoundationClass from '../components/sections/foundation-classes'
 import ContactSection from '../components/sections/contact'
+import SocialProof from '../components/sections/social-proof'
+import Footer from '../components/footer'
   
 
 const IndexPage = () => (
@@ -20,8 +22,10 @@ const IndexPage = () => (
         <WhyHook></WhyHook>
         <Cvbp></Cvbp>
         <WebinarSection></WebinarSection>
+        <SocialProof></SocialProof>
         <ContactSection></ContactSection>
       </main>
+      <Footer></Footer>
     </div>
   </Layout>
 )

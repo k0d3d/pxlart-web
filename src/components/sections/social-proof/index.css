@@ -1,0 +1,28 @@
+#social-proof-section .testimonial img{
+  border-radius: 999px;
+  
+}
+#social-proof-section .testimonial {
+  /* width: 400px; */
+  background-color: var(--shadeofgray);
+  box-shadow: var(--subtleshadow);
+  border-radius: var(--boxradius);
+}
+
+.testimonial .source-icon {
+  float: left;
+  margin-left: -25px;
+}
+.testimonial figcaption {
+  margin-left: 50px;
+}
+.source-icon svg {
+  position: relative;
+  left: 15px;
+}
+figcaption cite {
+  font-size: smaller;
+}
+figcaption h6 {
+  margin-bottom: 0;
+}

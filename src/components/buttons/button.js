@@ -6,14 +6,14 @@ import './btn.css'
 const ButtonBtn = props => (
   <>
     <button
-      className={props.btnSize + ' btn ' + props.btnClasses}
+      className={' btn ' + props.btnClasses}
       type="button"
       id="dropdownMenuButton"
       data-toggle="dropdown"
       aria-haspopup="true"
       aria-expanded="false"
     >
-      {props.btnText}
+      {props.children ? props.children : props.btnText}
     </button>
 
   </>
@@ -21,7 +21,6 @@ const ButtonBtn = props => (
 
 ButtonBtn.propTypes = {
   btnText: PropTypes.string,
-  btnSize: PropTypes.string,
   btnClasses: PropTypes.string,
 }
 

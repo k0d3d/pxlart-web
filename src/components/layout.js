@@ -4,7 +4,8 @@ import Helmet from 'react-helmet'
 import Safe from 'react-safe'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './layout.css'
+import '../styles/layout.css'
+import '../styles/media.css'
 
 
 

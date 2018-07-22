@@ -93,10 +93,9 @@ const listOfProjects = [
 const Cbvp = () => (
   <section id="cvbp">
     <div className="row no-gutters full-image-t">
-      <div className="col-5" />
-      <div className="col-6 col-p">
+      <div className="col-xs-12 offset-md-5 col-md-6 col-p">
         <div className="row">
-          <div className="col">
+          <div className="col heading">
             <h1>Training Courses and Projects</h1>
 
             <p className="smaller-text">
@@ -112,13 +111,12 @@ const Cbvp = () => (
         </div>
         <div className="row">
           {listOfProjects.map((p, i) => {
-            return <div className=" col-6" key={_.kebabCase(p.cardTitle) + i.toString()}>
+            return <div className="col-md-6 col-sm-12" key={_.kebabCase(p.cardTitle) + i.toString()}>
                 <TrainingCard cardMeta={p} />
               </div>
           })}
         </div>
       </div>
-      <div className="col"></div>
     </div>
   </section>
 )

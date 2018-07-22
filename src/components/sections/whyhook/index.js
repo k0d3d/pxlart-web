@@ -6,7 +6,7 @@ import './index.css'
 const WhyHook = () => (
   <section id="why-hook">
     <div className="row">
-      <div className="col-6 p-50">
+      <div className="col-md-5 col-xs-12 p-50">
         <div className="row">
           <div className="col">
             <h1>Why you should learn to code here</h1>
@@ -50,7 +50,7 @@ const WhyHook = () => (
 
         </div>
       </div>
-      <div className="col-6 right-image-fade" >
+      <div className="col-7 right-image-fade" >
         <div className="extra-box"></div>
       </div>
     </div>

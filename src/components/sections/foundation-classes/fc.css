@@ -44,7 +44,7 @@
 }
 .centered-box {
   margin-top: 50px;
-    width: 70vw;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
     border: solid 1px #dddddd;
@@ -70,4 +70,24 @@
 }
 .centered-box .row:nth-child(2) button {
   float: right;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .centered-box {
+    width: 100%;
+  }
+  .comfy-borders {
+    margin-left: auto;  
+    margin-right: auto;
+  }
+
+  .centered-box .row:nth-child(2) {
+    margin-top: -35px;
+    padding: 35px 5px;
+  }
+  .centered-box .row:nth-child(2) button { 
+    float: none;
+    font-size: 87%;
+    width: 100%;
+  }
+
 }

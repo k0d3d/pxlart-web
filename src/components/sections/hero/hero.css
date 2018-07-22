@@ -1,5 +1,5 @@
 .hero-vector-img {
-  /* width: 417px; */
+  max-width: 417px;
   /* z-index: 7; */
   background-image: url(./images/hero-side.jpg);
   background-size: 417px;

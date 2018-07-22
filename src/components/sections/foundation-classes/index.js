@@ -1,18 +1,19 @@
 import React from "react"
 
 import ButtonBtn from '../../buttons/button'
+import lang from '../../../lang.en'
 
 import './fc.css'
-
+const { teaserText, title, subTitle } = lang.foundationClass
 const FoundationClassSection = () => (
   <section id="foundation-class">
     <div className="row">
       <div className="col foundation-sale">
         <h4>
-          Enrollment is open for <br />August
+          { teaserText }
         </h4>
-        <h1>Foundation Class in Programming <br />using Javascript</h1>
-        <h5>Introduction into Web Development</h5>
+        <h1>{ title }</h1>
+        <h5>{ subTitle }</h5>
         <ButtonBtn btnText="Training" btnClasses=" btn-outline-secondary" />
       </div>
     </div>

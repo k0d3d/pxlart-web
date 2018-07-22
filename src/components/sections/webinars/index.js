@@ -30,7 +30,7 @@ const WebinarSection = () => (
           </div>
           <div className="form-check">
             <input type="checkbox" class="form-check-input" />
-            <label class="form-check-label">
+            <label className="form-check-label">
                 &nbsp;Are you ok with getting emails updates about training programs ?
             </label>
           </div>

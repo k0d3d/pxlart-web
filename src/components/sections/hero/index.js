@@ -1,25 +1,25 @@
 import React from 'react'
 
-import herovector from './images/herovector.svg'
+import lang from '../../../lang.en'
 import './hero.css'
 import ButtonBtn from '../../buttons/button'
 
+const { title, subTitle, theHook, ctaButtonText } = lang.heroSection
 
 const Hero = () => (
   <section id="hero">
     <div className="row no-gutters align-items-center">
       <div className="col-md-6 col-sm-12">
         <div className="main-title">
-          <h1>Learn to code</h1>
-          <h3>high performance web applications.</h3>
+          <h1>{ title }</h1>
+          <h3>{ subTitle }</h3>
           <p>
-            Go from novice to expert in our 12 weeks training program on
-            Javascript, JAMstack and Wordpress.
+            { theHook }
           </p>
           <p>
             <ButtonBtn
               btnClasses="btn-red btn-home-hero-cta"
-              btnText="Enroll today"
+              btnText={ ctaButtonText }
             />
           </p>
         </div>

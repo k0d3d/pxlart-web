@@ -84,7 +84,7 @@ small,
 }
 section {
   min-height: calc(100vh);
-  margin-top: 2.5em;
+  margin-top: 2em;
 }
 
 input.form-control {
@@ -92,6 +92,11 @@ input.form-control {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+  section {
+    margin-top: 1em;
+  }
+  
   h1,
   h2,
   h3,

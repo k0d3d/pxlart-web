@@ -1,4 +1,13 @@
 
+import React from 'react'
+import sanitizeHtml from 'sanitize-html'
+
+const returnCleanHtml = (str) => {
+  let cleaned = sanitizeHtml(str)
+  console.log(str)
+  return <span dangerouslySetInnerHTML={{ __html:cleaned}} />
+}
+
 const lang = {
   siteTitle: 'Pxlart Design Training',
   metaDescription:
@@ -13,16 +22,16 @@ const lang = {
     ctaButtonText: 'Enroll Today',
   },
   foundationClass: {
-    teaserText: 'Enrollment is open for <br />August',
-    title: 'Foundation Class in Programming <br />using Javascript',
+    teaserText: returnCleanHtml('Enrollment is open for <br />August'),
+    title: returnCleanHtml('Foundation Class in Programming <br />using Javascript'),
     subTitle: 'Introduction to Javascript',
     theHook: [
       {
         title: 'What does this training offer',
-        text: `This course is designed for entry level programmers. Our
-                  curriculum is 100% remote-proof. This means you can take
+        text: returnCleanHtml(`This course is designed for entry level programmers. Our
+                  curriculum is 100% remote. This means you can take
                   lessons and video trainings from your comfort. <br />
-                  <br />`
+                  <br />`)
       },
     ],
   },

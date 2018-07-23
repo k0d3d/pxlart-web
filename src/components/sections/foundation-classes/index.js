@@ -58,8 +58,7 @@ const FoundationClassSection = () => (
           </div>
           <div className="row">
             <div className="col">
-              <ButtonBtn btnClasses="btn-red d-md-inline-block">Enroll Now for N15,000 per month</ButtonBtn>
-              {/* <ButtonBtn btnClasses="btn-red btn-block d-md-none">Enroll Now for N40,000 per month </ButtonBtn> */}
+              <ButtonBtn btnClasses="btn-red d-md-inline-block">Enroll Now for N35,000 per month</ButtonBtn>
             </div>
           </div>
         </div>

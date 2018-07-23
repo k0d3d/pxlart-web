@@ -16,12 +16,14 @@ import './index.css'
  */
 const listOfProjects = [
   {
-    cardTitle: 'Foundation Javascript',
-    description: 'Entry level training on how to code for beginners.',
+    cardTitle: 'Introduction to Javascript',
+    description:
+      'Foundation Class in Programming using Javascript - an entry level training on how to code for beginners.',
     repo: 'https://github.com/k0d3d/stuffs',
     stack: ['HTML5', 'CSS3', 'Javascript / ES6', 'Bash / CMD', 'Toolchain'],
-    premiumTrainingPurchase: 150,
+    courseCost: 35000,
     imageThumbnail: StuffsImg,
+    buttonText: 'Enroll now',
   },
   {
     cardTitle: 'Stuffs',
@@ -37,8 +39,9 @@ const listOfProjects = [
       'Express Js',
       'Passport Js',
     ],
-    premiumTrainingPurchase: 150,
+    courseCost: 25000,
     imageThumbnail: StuffsImg,
+    buttonText: 'Early access',
   },
   {
     cardTitle: 'Promomonger.com',
@@ -46,8 +49,9 @@ const listOfProjects = [
       'An ecommerce site for fresh food delivery and kitchen utensils built with Wordpress and Woocommerce',
     repo: 'https://github.com/k0d3d/promomonger',
     stack: ['Wordpress', 'WooCommerce', 'PWA'],
-    premiumTrainingPurchase: 150,
+    courseCost: 20000,
     imageThumbnail: StuffsImg,
+    buttonText: 'Early access',
   },
   {
     cardTitle: 'IWAC',
@@ -62,8 +66,9 @@ const listOfProjects = [
       'Express Js',
       'Passport Js',
     ],
-    premiumTrainingPurchase: 150,
+    courseCost: 12000,
     imageThumbnail: StuffsImg,
+    buttonText: 'Early access',
   },
   {
     cardTitle: 'iXit Bot',
@@ -79,15 +84,13 @@ const listOfProjects = [
       'Scrapy',
       'Phanton Js',
     ],
-    premiumTrainingPurchase: 150,
+    courseCost: 15000,
     imageThumbnail: StuffsImg,
+    buttonText: 'Early access',
   },
 ]
 
-// <li>Shotgun - ReactJs </li>
-// <li>IWAC - iXit Web Application Client </li>
-// <li>iXit Bot - Web Data Scraper built in Nodejs and Python </li>
-//       </ul >
+
 
 // Clear benefits and value proposition
 const Cbvp = () => (

@@ -1,7 +1,14 @@
 import React from 'react'
 import _ from 'lodash'
+import TweetEmbed from 'react-tweet-embed'
 
 import './index.css'
+
+const tweetList = [
+  '1018907963015102465',
+  '1021041430750539776',
+  '1020022699027058691',
+]
 
 const TestimonialCard = () => (
   <div className="col">
@@ -59,8 +66,10 @@ class SocialProof extends React.Component {
           </div>
         </div>
         <div className="row justify-content-center">
-          {[1, 2, 3].map((p, i) => {
-            return <TestimonialCard key={_.uniqueId()} />
+          {tweetList.map((p, i) => {
+            return <div key={_.uniqueId()} className="col-md-4 col-sm-12">
+                <TweetEmbed id={p} />
+              </div> 
           })}
         </div>
       </section>

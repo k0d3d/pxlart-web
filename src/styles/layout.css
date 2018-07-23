@@ -1,5 +1,11 @@
 /* Comfortaa|Quicksand */
 @import '../styles/palette.css';
+@import './slick/slick.css';
+@import './slick/slick-theme.css';
+
+
+
+
 
 :root {
   --fallbackfont: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;

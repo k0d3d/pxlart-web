@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/layout.css'
 import '../styles/media.css'
-import lang from '../lang.en'
+import lang from '../lib/lang.en'
 
 
 class TemplateWrapper extends React.Component {

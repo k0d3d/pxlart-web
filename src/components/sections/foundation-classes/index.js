@@ -1,10 +1,12 @@
 import React from "react"
 
 import ButtonBtn from '../../buttons/button'
-import lang from '../../../lang.en'
+import lang from '../../../lib/lang.en'
 
 import './fc.css'
+
 const { teaserText, title, subTitle } = lang.foundationClass
+
 const FoundationClassSection = () => (
   <section id="foundation-class">
     <div className="row">
@@ -58,7 +60,7 @@ const FoundationClassSection = () => (
           </div>
           <div className="row">
             <div className="col">
-              <ButtonBtn btnClasses="btn-red d-md-inline-block">Enroll Now for N35,000 per month</ButtonBtn>
+              <a href="https://paystack.com/pay/intro2js" target="_blanl" className="btn btn-red d-md-inline-block">Enroll Now for N35,000 per month</a>
             </div>
           </div>
         </div>

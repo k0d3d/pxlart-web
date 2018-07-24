@@ -1,4 +1,6 @@
 import React from 'react'
+import { IntlProvider, FormattedMessage } from 'react-intl'
+
 
 import Layout from '../components/layout'
 import NavBar from '../components/navigation'
@@ -14,21 +16,23 @@ import Footer from '../components/footer'
   
 
 const IndexPage = () => (
-  <Layout>
-    <div className='container'>
-      <NavBar></NavBar>
-      <main>
-        <Hero></Hero>
-        <FoundationClass></FoundationClass>
-        <WhyHook></WhyHook>
-        <Cvbp></Cvbp>
-        <WebinarSection></WebinarSection>
-        <SocialProof></SocialProof>
-        <ContactSection></ContactSection>
-      </main>
-      <Footer></Footer>
-    </div>
-  </Layout>
+  <IntlProvider locale="en">
+    <Layout>
+      <div className="container">
+        <NavBar />
+        <main>
+          <Hero />
+          <FoundationClass />
+          <WhyHook />
+          <Cvbp />
+          <WebinarSection />
+          <SocialProof />
+          <ContactSection />
+        </main>
+        <Footer />
+      </div>
+    </Layout>
+  </IntlProvider>
 )
 
 export default IndexPage

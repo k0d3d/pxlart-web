@@ -17,3 +17,11 @@ h5.card-title {
 .card-footer .btn {
   font-family: Raleway;
 }
+.card-footer .btn { 
+  color: white;
+}
+
+.card span.badge-link {
+  font-size: 65%;
+}
+

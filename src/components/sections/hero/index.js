@@ -1,6 +1,6 @@
 import React from 'react'
 
-import lang from '../../../lang.en'
+import lang from '../../../lib/lang.en'
 import './hero.css'
 import ButtonBtn from '../../buttons/button'
 

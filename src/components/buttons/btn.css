@@ -60,7 +60,7 @@
 }
 .btn-purplish {
   background: var(--purpleish);
-  color: white;
+  color: white !important;
 }
 .btn-purplish:hover{
   color: white;

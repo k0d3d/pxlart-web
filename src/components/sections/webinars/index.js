@@ -6,7 +6,7 @@ const WebinarSection = () => (
   <section id="webinar-section" className="webinar-section">
     <div className="row no-gutter">
       <div className="col-md-6 offset-md-6 col-xs-12 p-5">
-        <h1>Subscribe to join our Webinar</h1>
+        <h2>Subscribe to join our Webinar</h2>
         <p>
           Twice a month, we host a live webinar on Hangouts / Skype / Slack.<br />
           Here you can discuss project ideas, career advice, money making ideas,

@@ -12,7 +12,7 @@ const TrainingCard = props => (
       <h5 className="card-title">{props.cardMeta.title}</h5>
       <p className="card-text">{props.cardMeta.description}</p>
       <p>{
-          props.cardMeta.stack.map(s => (<span className="badge badge-pill badge-link">{s}</span>))
+          props.cardMeta.stack.map((s, i) => (<span key={`stackpill-${i}`} className="badge badge-pill badge-link">{s}</span>))
         }
       </p>
     </div>

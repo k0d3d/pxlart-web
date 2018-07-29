@@ -25,7 +25,7 @@ const Cbvp = () => (
       <div className="col-xs-12 offset-md-5 col-md-6 col-p">
         <div className="row">
           <div className="col heading">
-            <h1>Training Courses and Projects</h1>
+            <h2>Training Courses and Projects</h2>
 
             <p className="smaller-text">
               Our courses are holistic and leave nothing out. <br />Our intention is

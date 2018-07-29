@@ -11,11 +11,9 @@ const FoundationClassSection = () => (
   <section id="foundation-class">
     <div className="row">
       <div className="col foundation-sale">
-        <h4>
-          { teaserText }
-        </h4>
-        <h1>{ title }</h1>
-        <h5>{ subTitle }</h5>
+        <h4>{teaserText}</h4>
+        <h1>{title}</h1>
+        <h5>{subTitle}</h5>
         <ButtonBtn btnText="Training" btnClasses=" btn-outline-secondary" />
       </div>
     </div>
@@ -50,7 +48,7 @@ const FoundationClassSection = () => (
               </div>
               <div className="comfy-borders">
                 <article>
-                  We can gaurantee after completing our training programs, you
+                  We can guarantee after completing our training programs, you
                   can start your own freelance web design gigs or a blog or a
                   personal project you have been dreaming about.
                 </article>
@@ -60,7 +58,14 @@ const FoundationClassSection = () => (
           </div>
           <div className="row">
             <div className="col">
-              <a href="https://paystack.com/pay/intro2js" target="_blanl" className="btn btn-red d-md-inline-block">Enroll Now for N35,000 per month</a>
+              <a
+                href="https://paystack.com/pay/intro2js"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-red d-md-inline-block"
+              >
+                Enroll Now for N35,000 per month
+              </a>
             </div>
           </div>
         </div>

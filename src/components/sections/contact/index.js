@@ -4,9 +4,9 @@ import './index.css'
 
 const ContactSection = () => (
   <section id="contact-section" className="p-3">
-    <h1 className="pt-5">
+    <h2 className="pt-5">
       Contacts and <br />Questions
-    </h1>
+    </h2>
 
     <h5 className="">
       We reply to emails in 24 hours &nbsp; 

@@ -9,7 +9,7 @@ const WhyHook = () => (
       <div className="col-md-5 col-xs-12 p-50">
         <div className="row">
           <div className="col">
-            <h1>Why you should learn to code here</h1>
+            <h2>Why you should learn to code here</h2>
             <h5>More opportunities</h5>
             <p>
               In a constantly advancing world, having tech skills, especially

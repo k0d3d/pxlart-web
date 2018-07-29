@@ -4,14 +4,13 @@ import sanitizeHtml from 'sanitize-html'
 
 const returnCleanHtml = (str) => {
   let cleaned = sanitizeHtml(str)
-  console.log(str)
   return <span dangerouslySetInnerHTML={{ __html:cleaned}} />
 }
 
-const questions = [
-  'Do you like to build things?',
-  'Are you looking for a way to build a tech solution but you dont have any idea about where to start ?'
-]
+// const questions = [
+//   'Do you like to build things?',
+//   'Are you looking for a way to build a tech solution but you dont have any idea about where to start ?'
+// ]
 
 const lang = {
   siteTitle: 'Pxlart Design Training',

@@ -19,8 +19,8 @@ class TemplateWrapper extends React.Component {
     const bodyTag = document.getElementsByTagName('body')[0]
     s.type = 'text/javascript'
     s.async = true
-    s.innerHTML = `window.$crisp=[];window.CRISP_WEBSITE_ID="298fbb6a-f9c8-44cd-b98f-472b7a365be8";(function(){d = document; s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`
-    bodyTag.appendChild(s)
+    // s.innerHTML = `window.$crisp=[];window.CRISP_WEBSITE_ID="298fbb6a-f9c8-44cd-b98f-472b7a365be8";(function(){d = document; s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();`
+    // bodyTag.appendChild(s)
   }
 
   render() {

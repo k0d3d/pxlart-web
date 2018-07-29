@@ -10,8 +10,6 @@ const DropdownBtn = props => (
       type="button"
       id="dropdownMenuButton"
       data-toggle="dropdown"
-      aria-haspopup="true"
-      aria-expanded="false"
     >
       {props.btnText}
       <figure>
@@ -30,7 +28,7 @@ const DropdownBtn = props => (
         </svg>
       </figure>
     </button>
-    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <div className="dropdown-menu">
       {/* <a className="dropdown-item" href="#">Action</a>
       <a className="dropdown-item" href="#">Another action</a>
       <a className="dropdown-item" href="#">Something else here</a> */}

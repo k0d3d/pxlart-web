@@ -7,6 +7,8 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
     "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
     "axios": "^0.18.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
     "gatsby": "next",
@@ -15,7 +17,7 @@
     "gatsby-plugin-netlify": "^1.0.21",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-sass": "^1.0.26",
-    "gatsby-plugin-styled-components": "^2.0.11",
+    "gatsby-plugin-styled-components": "next",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",
     "node-sass": "^4.9.2",
@@ -28,7 +30,7 @@
     "react-tweet-embed": "^1.1.0",
     "sanitize-html": "^1.18.2",
     "styled-components": "^3.3.3",
-    "webpack": "^4.16.1"
+    "webpack": "^4.16.3"
   },
   "keywords": [
     "gatsby"

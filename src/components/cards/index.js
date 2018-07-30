@@ -7,7 +7,7 @@ import './cards.css'
 // https://openexchangerates.org/api/latest.json?app_id= ?symbols
 
 const TrainingCard = props => (
-  <div className="card">
+  <div className="card t-card">
     <div className="card-body">
       <h5 className="card-title">{props.cardMeta.title}</h5>
       <p className="card-text">{props.cardMeta.description}</p>

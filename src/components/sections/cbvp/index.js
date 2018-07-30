@@ -9,7 +9,7 @@ import Lessons from '../../../containers/lessons'
 
 
 import './index.css'
-
+import '../../cards/cards.css'
 
 /**
  * List of projects we'll be using to train

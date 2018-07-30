@@ -1,4 +1,4 @@
-.card {
+.t-card {
   min-height: 222px;
   /* max-height: 210px; */
   margin-bottom: 10px;
@@ -21,7 +21,7 @@ h5.card-title {
   color: white;
 }
 
-.card span.badge-link {
+.t-card span.badge-link {
   font-size: 65%;
 }
 

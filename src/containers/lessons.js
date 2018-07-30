@@ -15,7 +15,7 @@
 
 import React from 'react'
 import moment from 'moment'
-import { FormattedMessage, FormattedNumber } from 'react-intl';
+import { FormattedNumber } from 'react-intl';
 import _ from 'lodash'
 
 const currency = [
@@ -23,10 +23,9 @@ const currency = [
 ]
 
 const calculateCourseCost = (lesson) => {
-  let userCurrency
-  if (_.isEmpty(localStorage.localeCurrency) ) {
-    userCurrency = 'USD'
-  }
+  let userCurrency = 'USD'
+  // if (_.isEmpty(localStorage.localeCurrency) ) {
+  // }
   // if it early use earlydate
   // moment('2010-10-20').isBefore('2010-10-21');
   if ( moment().isBefore(moment(lesson.startDate)) ) return lesson.isEarlyPrice

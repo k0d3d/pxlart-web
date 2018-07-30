@@ -20,7 +20,7 @@ const TrainingCard = props => (
       <a href={ props.cardMeta.paymentPageUrl } className="btn btn-xs btn-purplish">
        {props.cardMeta.buttonText } - { props.cardMeta.courseCost }
       </a>
-    </div>
+    </div> 
   </div>
 )
 

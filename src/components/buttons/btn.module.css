@@ -1,0 +1,67 @@
+
+
+
+.btn-blue {
+  background-color: var(--maincolor);
+  color: white;
+  font-family: var(--buttonfont);  
+}
+.btn-blue:hover { 
+  color: white;
+}
+.btn-blue-outline {
+  border: solid 1px #2F64ED;
+  background-color: #fff;
+  border: solid 1px #2F64ED;
+  color: #2F64ED;
+}
+
+.btn-red {
+  /* background-color: #EB5757; */
+  background-color: var(--secondarycolor);
+  color: white;
+  font-family: var(--buttonfont);
+  font-weight: 800;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
+}
+.btn-xs {
+  padding: 0.175rem .55rem;
+  font-size: 12px; 
+}
+.btn-bold {
+  color: white;
+  box-shadow: 0 4px 4px rgb(99, 35, 35);
+  font-weight: 800;
+  min-width: 169px;
+}
+
+.btn-home-hero-cta {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+    font-size: 1em;
+    padding: 1rem 3.5rem;  
+    color: white;
+}
+
+.btn {
+  border-radius: 18px;
+  font-weight: 800;
+}
+.btn:hover {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
+}
+
+.btn figure {
+  margin-left: 4px;
+  display: inline;
+}
+
+.btn-underlined {
+  border-bottom: solid 2px #EB5757;
+}
+.btn-purplish {
+  background: var(--purpleish);
+  color: white !important;
+}
+.btn-purplish:hover{
+  color: white;
+}

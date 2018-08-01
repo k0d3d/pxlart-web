@@ -1,11 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import './btn.css'
+import btnStyles from './btn.css'
+
+import { StyledBtnBlueOutline } from './styles'
+
 
 const DropdownBtn = props => (
   <div className="dropdown">
-    <button
+    <StyledBtnBlueOutline
       className={props.btnSize + ' btn ' + props.btnClasses}
       type="button"
       id="dropdownMenuButton"
@@ -27,7 +30,7 @@ const DropdownBtn = props => (
           />
         </svg>
       </figure>
-    </button>
+    </StyledBtnBlueOutline>
     <div className="dropdown-menu">
       {/* <a className="dropdown-item" href="#">Action</a>
       <a className="dropdown-item" href="#">Another action</a>

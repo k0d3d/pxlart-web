@@ -11,16 +11,13 @@ const Hero = () => (
     <div className="row no-gutters align-items-center">
       <div className="col-md-6 col-sm-12">
         <div className="main-title">
-          <h1>{ title }</h1>
-          <h3>{ subTitle }</h3>
+          <h1>{title}</h1>
+          <h3>{subTitle}</h3>
+          <p>{theHook}</p>
           <p>
-            { theHook }
-          </p>
-          <p>
-            <ButtonBtn
-              btnClasses="btn-red btn-home-hero-cta"
-              btnText={ ctaButtonText }
-            />
+            <ButtonBtn btnred btnhomeherocta>
+              {ctaButtonText}
+            </ButtonBtn>
           </p>
         </div>
       </div>

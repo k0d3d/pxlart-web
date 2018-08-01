@@ -1,13 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { StyledCard } from './style'
+
 import './cards.css'
 
 //9010f072421c44f492f167d8ba2a6951
 // https://openexchangerates.org/api/latest.json?app_id= ?symbols
 
 const TrainingCard = props => (
-  <div className="card t-card">
+  <StyledCard className="card t-card">
     <div className="card-body">
       <h5 className="card-title">{props.cardMeta.title}</h5>
       <p className="card-text">{props.cardMeta.description}</p>
@@ -21,7 +23,7 @@ const TrainingCard = props => (
        {props.cardMeta.buttonText } - { props.cardMeta.courseCost }
       </a>
     </div> 
-  </div>
+  </StyledCard>
 )
 
 TrainingCard.propTypes = {

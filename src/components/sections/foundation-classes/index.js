@@ -14,7 +14,10 @@ const FoundationClassSection = () => (
         <h4>{teaserText}</h4>
         <h1>{title}</h1>
         <h5>{subTitle}</h5>
-        <ButtonBtn btnText="Training" btnClasses=" btn-outline-secondary" />
+        <ButtonBtn
+          btnText="Training"
+          btnxs
+        />
       </div>
     </div>
     <div className="row">
@@ -28,8 +31,8 @@ const FoundationClassSection = () => (
               <div className="comfy-borders">
                 <article>
                   This course is designed for entry level programmers. Our
-                  curriculum is 100% remote-proof. This means you can take
-                  lessons and video trainings from your comfort. <br />
+                  curriculum is 100% remote. This means you can take lessons and
+                  video trainings from your comfort. <br />
                   <br />
                 </article>
               </div>
@@ -58,14 +61,15 @@ const FoundationClassSection = () => (
           </div>
           <div className="row">
             <div className="col">
-              <a
+              <ButtonBtn
                 href="https://paystack.com/pay/intro2js"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-red d-md-inline-block"
+                className="btn d-md-inline-block"
+                btnred
               >
                 Enroll Now for N35,000 per month
-              </a>
+              </ButtonBtn>
             </div>
           </div>
         </div>

@@ -1,18 +1,16 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import btnStyles from './btn.css'
-
 import { StyledBtnBlueOutline } from './styles'
 
 
 const DropdownBtn = props => (
   <div className="dropdown">
     <StyledBtnBlueOutline
-      className={props.btnSize + ' btn ' + props.btnClasses}
+      className="btn"
       type="button"
       id="dropdownMenuButton"
-      data-toggle="dropdown"
+      {...props}
     >
       {props.btnText}
       <figure>

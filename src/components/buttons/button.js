@@ -1,27 +1,24 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import { StyledBtn } from './styles'
 import './btn.css'
 
 const ButtonBtn = props => (
   <>
-    <button
-      className={' btn ' + props.btnClasses}
+    <StyledBtn
+      className="btn"
       type="button"
-      id="dropdownMenuButton"
-      data-toggle="dropdown"
-      aria-haspopup="true"
-      aria-expanded="false"
+      {...props}
     >
       {props.children ? props.children : props.btnText}
-    </button>
+    </StyledBtn>
 
   </>
 )
 
 ButtonBtn.propTypes = {
   btnText: PropTypes.string,
-  btnClasses: PropTypes.string,
 }
 
 export default ButtonBtn

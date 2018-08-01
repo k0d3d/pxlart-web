@@ -22,7 +22,7 @@ const WhyHook = () => (
               people.
             </p>
             <p>
-              <ButtonBtn btnText="Read stories" btnClasses="btn-outline-primary btn-xs" />
+              <ButtonBtn btnxs> Read Stories </ButtonBtn>
             </p>
           </div>
           <div className="w-100" />

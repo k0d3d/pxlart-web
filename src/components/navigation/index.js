@@ -10,7 +10,7 @@ const NavBar = () => (
     <a className="navbar-brand" >
       <img src={Logo}  alt='pxlart logo'/>
     </a>
-    <DropdownBtn btnText="Code Camp" btnSize="btn-xs"></DropdownBtn>
+    <DropdownBtn btnText="Code Camp" btnxs></DropdownBtn>
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-auto">

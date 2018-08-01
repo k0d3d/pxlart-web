@@ -1,5 +1,5 @@
 import React from 'react'
-import { IntlProvider, FormattedMessage } from 'react-intl'
+import { IntlProvider } from 'react-intl'
 
 
 import Layout from '../components/layout'

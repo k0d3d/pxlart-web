@@ -18,12 +18,9 @@ import moment from 'moment'
 import { FormattedNumber } from 'react-intl';
 import _ from 'lodash'
 
-const currency = [
-  'USD', 'NGN'
-]
+
 
 const calculateCourseCost = (lesson) => {
-  let userCurrency = 'USD'
   // if (_.isEmpty(localStorage.localeCurrency) ) {
   // }
   // if it early use earlydate

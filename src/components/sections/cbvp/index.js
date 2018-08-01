@@ -1,15 +1,18 @@
 import React from 'react'
 import _ from 'lodash'
-
+import styled from 'styled-components'
 import TrainingCard from '../../cards'
-
-import StuffsImg from './images/facebookapp.jpg'
 
 import Lessons from '../../../containers/lessons'
 
 
 import './index.css'
-import '../../cards/cards.css'
+
+const StyledColp = styled.div`
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 40px;
+`
 
 /**
  * List of projects we'll be using to train
@@ -22,30 +25,35 @@ import '../../cards/cards.css'
 const Cbvp = () => (
   <section id="cvbp">
     <div className="row no-gutters full-image-t">
-      <div className="col-xs-12 offset-md-5 col-md-6 col-p">
+      <StyledColp className="col-xs-12 offset-md-5 col-md-6 col-p">
         <div className="row">
           <div className="col heading">
             <h2>Training Courses and Projects</h2>
 
             <p className="smaller-text">
-              Our courses are holistic and leave nothing out. <br />Our intention is
-              to take you through every step in creating fully working IT
-              solution. 
-              <br />Most of our projects are Javascript application but we
-              also have projects that depend on Python scripts, Redis servers
-              and even Elastic Search. <br />
-              
+              Our courses are holistic and leave nothing out. <br />
+              Our intention is to take you through every step in creating fully
+              working IT solution.
+              <br />
+              Most of our projects are Javascript application but we also have
+              projects that depend on Python scripts, Redis servers and even
+              Elastic Search. <br />
             </p>
           </div>
         </div>
         <div className="row">
           {Lessons.map((p, i) => {
-            return <div className="col-md-6 col-sm-12" key={_.kebabCase(p.cardTitle) + i.toString()}>
+            return (
+              <div
+                className="col-md-6 col-sm-12"
+                key={_.kebabCase(p.cardTitle) + i.toString()}
+              >
                 <TrainingCard cardMeta={p} />
               </div>
+            )
           })}
         </div>
-      </div>
+      </StyledColp>
     </div>
   </section>
 )

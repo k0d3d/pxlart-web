@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import { StyledCard } from './style'
-
+import ButtonBtn from '../buttons/button'
 import './cards.css'
 
 //9010f072421c44f492f167d8ba2a6951
@@ -19,9 +19,9 @@ const TrainingCard = props => (
       </p>
     </div>
     <div className="card-footer">
-      <a href={ props.cardMeta.paymentPageUrl } className="btn btn-xs btn-purplish">
+      <ButtonBtn href={ props.cardMeta.paymentPageUrl } className="btn btn-xs btn-purplish">
        {props.cardMeta.buttonText } - { props.cardMeta.courseCost }
-      </a>
+      </ButtonBtn>
     </div> 
   </StyledCard>
 )

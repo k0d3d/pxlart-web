@@ -24,7 +24,7 @@ const StyledColp = styled.div`
 // Clear benefits and value proposition
 const Cbvp = () => (
   <section id="cvbp">
-    <div className="row no-gutters full-image-t">
+    <div className="row full-image-t">
       <StyledColp className="col-xs-12 offset-md-5 col-md-6 col-p">
         <div className="row">
           <div className="col heading">

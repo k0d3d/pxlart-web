@@ -46,6 +46,7 @@ export const lang = {
     teaserText: returnCleanHtml('Enrollment is open for <br />August'),
     title: returnCleanHtml('Foundation Class in Programming <br />using Javascript'),
     subTitle: 'Introduction to Javascript',
+    enrollBtn: 'Enroll Now for N30,000 per month',
     theHook: [
       {
         title: 'What does this training offer',

@@ -5,7 +5,7 @@ import { lang } from '../../../lib/lang.en'
 
 import './fc.css'
 
-const { teaserText, title, subTitle } = lang.foundationClass
+const { teaserText, title, subTitle, enrollBtn } = lang.foundationClass
 
 const FoundationClassSection = () => (
   <section id="foundation-class">
@@ -14,10 +14,7 @@ const FoundationClassSection = () => (
         <h4>{teaserText}</h4>
         <h1>{title}</h1>
         <h5>{subTitle}</h5>
-        <ButtonBtn
-          btnText="Training"
-          btnxs
-        />
+        <ButtonBtn btnText="Training" btnxs />
       </div>
     </div>
     <div className="row">
@@ -63,12 +60,12 @@ const FoundationClassSection = () => (
             <div className="col">
               <ButtonBtn
                 href="https://paystack.com/pay/intro2js"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn d-md-inline-block"
+                className="d-inline-block text-center"
                 btnred
+                btnhomeherocta
+                atag
               >
-                Enroll Now for N35,000 per month
+                { enrollBtn }
               </ButtonBtn>
             </div>
           </div>

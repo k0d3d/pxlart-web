@@ -9,10 +9,6 @@ import { lang } from '../lib/lang.en'
 
 
 class TemplateWrapper extends React.Component {
-  constructor(props) {
-    super(props)
-  }
-
 
   componentDidMount() { 
     const s = document.createElement('script')

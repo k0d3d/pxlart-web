@@ -15,7 +15,12 @@ const Hero = () => (
           <h3>{subTitle}</h3>
           <p>{theHook}</p>
           <p>
-            <ButtonBtn btnred btnhomeherocta>
+            <ButtonBtn
+              btnred
+              btnhomeherocta
+              atag
+              href="https://paystack.com/pay/intro2js"
+            >
               {ctaButtonText}
             </ButtonBtn>
           </p>

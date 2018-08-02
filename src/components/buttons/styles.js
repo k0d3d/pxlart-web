@@ -7,7 +7,7 @@ font-weight: 800;
 
 ${props => props.btnhomeherocta && css`
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
-  font-size: 2em;
+  font-size: 1.4em;
   padding: 1rem 3.5rem;
   color: white;`
 }; 

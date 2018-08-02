@@ -11,7 +11,7 @@ import WebinarSection from "../components/sections/webinars";
 import FoundationClass from '../components/sections/foundation-classes'
 import ContactSection from '../components/sections/contact'
 import SocialProof from '../components/sections/social-proof'
-// import HWTSlider from '../components/sections/how-we-teach'
+import HWTSlider from '../components/sections/how-we-teach'
 // import Footer from '../components/footer'
   
 
@@ -25,6 +25,7 @@ const IndexPage = () => (
           <FoundationClass />
           <WhyHook />
           <Cvbp />
+          <HWTSlider></HWTSlider>
           <WebinarSection />
           <SocialProof />
           <ContactSection />

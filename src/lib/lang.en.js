@@ -12,8 +12,8 @@ const returnCleanHtml = (str) => {
 //   'Are you looking for a way to build a tech solution but you dont have any idea about where to start ?'
 // ]
 
-const lang = {
-  siteTitle: 'Pxlart Design Training',
+export const lang = {
+  siteTitle: 'Learn Javascript at CodeCamp 2016| Pxlart Design Training, Consulting and Development ',
   metaDescription:
     'Learn to build high performance javascript applications.Our training includes courses and projects for front end development and Wordpress',
   metaKeywords:
@@ -24,6 +24,23 @@ const lang = {
     theHook:
       'We have prepared lots of videos, detailed interactive tutorials and fully documented project files for you to learn coding.',
     ctaButtonText: 'Enroll Today',
+  },
+  webinars: {
+    content: `
+        <p>
+          Twice a month, we host a live webinar on Hangouts / Skype / Slack.<br />
+          Here you can discuss project ideas, career advice, money making ideas,
+          annoying problems and learn from expert instructors and with other
+          trainees.<br />
+          Its a great way to fill in the blanks. Webinar sessions are usually
+          within working hours and last about 3 hours.
+        </p>
+        <p>
+          Webinar sessions are free for trainees and $5 for non-trainees.<br/> If
+          this is your first time, you get a free session. <br />Register below and we
+          will send you the invitation link to join.
+        </p>    
+    ` 
   },
   foundationClass: {
     teaserText: returnCleanHtml('Enrollment is open for <br />August'),
@@ -40,6 +57,3 @@ const lang = {
     ],
   },
 }
-
-
-export default lang

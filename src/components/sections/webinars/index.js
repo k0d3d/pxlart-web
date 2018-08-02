@@ -1,25 +1,16 @@
 import React from 'react'
 
+import { lang } from '../../../lib/lang.en'
 import './index.css'
+
+const webinar_en = lang.webinars
 
 const WebinarSection = () => (
   <section id="webinar-section" className="webinar-section">
     <div className="row no-gutter">
       <div className="col-md-6 offset-md-6 col-xs-12 p-5">
         <h2>Subscribe to join our Webinar</h2>
-        <p>
-          Twice a month, we host a live webinar on Hangouts / Skype / Slack.<br />
-          Here you can discuss project ideas, career advice, money making ideas,
-          annoying problems and learn from expert instructors and with other
-          trainees.<br />
-          Its a great way to fill in the blanks. Webinar sessions are usually
-          within working hours and last about 3 hours.
-        </p>
-        <p>
-          Webinar sessions are free for trainees and $5 for non-trainees.<br/> If
-          this is your first time, you get a free session. <br />Register below and we
-          will send you the invitation link to join.
-        </p>
+        {webinar_en.content}
         <form>
           <div className="form-group">
             <input

@@ -7,7 +7,7 @@ font-weight: 800;
 
 ${props => props.btnhomeherocta && css`
   box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
-  font-size: 1em;
+  font-size: 2em;
   padding: 1rem 3.5rem;
   color: white;`
 }; 
@@ -29,6 +29,8 @@ ${props => props.btnred && css`
 `}
 
 `
+
+export const StyledBtnA = StyledBtn.withComponent('a')
 
 export const StyledBtnBlueOutline = styled(StyledBtn)`
          border: solid 1px #2f64ed;

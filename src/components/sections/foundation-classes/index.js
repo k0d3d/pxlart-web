@@ -1,7 +1,7 @@
 import React from "react"
 
 import ButtonBtn from '../../buttons/button'
-import lang from '../../../lib/lang.en'
+import { lang } from '../../../lib/lang.en'
 
 import './fc.css'
 

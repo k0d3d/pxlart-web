@@ -16,10 +16,12 @@ const Hero = () => (
           <p>{theHook}</p>
           <p>
             <ButtonBtn
+              id="about-pay"
               btnred
               btnhomeherocta
               atag
-              href="https://paystack.com/pay/intro2js"
+              newurl="https://paystack.com/pay/intro2js"
+              href="/pay"
             >
               {ctaButtonText}
             </ButtonBtn>

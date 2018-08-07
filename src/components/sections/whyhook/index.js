@@ -18,11 +18,7 @@ const WhyHook = () => (
             </p>
             <p>
               Learning to code has made life better for people who seek an
-              alternative career. Read about how this changed the life of two
-              people.
-            </p>
-            <p>
-              <ButtonBtn btnxs> Read Stories </ButtonBtn>
+              alternative career. 
             </p>
           </div>
           <div className="w-100" />
@@ -31,10 +27,10 @@ const WhyHook = () => (
             <p>
               With 8 years of designing websites and building web applications,
               we want to share our experience and help you move up your career
-              and stay up-to-date with what tech can offer you.
+              .
             </p>
             <p>
-              You will learn to rapidly build solutions by leveraging existing
+              You will learn to rapidly build both front-end / serverless, back-end and full-stack solutions by leveraging existing
               javascript technologies like MongoDB, React, Electron and Wordpress more.
             </p>
           </div>

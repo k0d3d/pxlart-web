@@ -1,5 +1,5 @@
 import React from 'react'
-import _ from 'lodash'
+import uniqueId from 'lodash/uniqueId'
 import TweetEmbed from 'react-tweet-embed'
 
 import './index.css'
@@ -26,7 +26,7 @@ class SocialProof extends React.Component {
         </div>
         <div className="row justify-content-center">
           {tweetList.map((p, i) => {
-            return <div key={_.uniqueId()} className="col-md-4 col-sm-12">
+            return <div key={uniqueId()} className="col-md-4 col-sm-12">
                 <TweetEmbed id={p} />
               </div> 
           })}

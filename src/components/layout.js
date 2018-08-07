@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/layout.css'
 import '../styles/media.css'
 import { lang } from '../lib/lang.en'
+import fav from '../images/favicon-96x96.png'
+import FaviconMetaData from './favicon'
 
 
 class TemplateWrapper extends React.Component {
@@ -36,9 +38,9 @@ class TemplateWrapper extends React.Component {
           <meta property="og:description" content="Pxlart design - Learn to build high performance javascript applications. Our training includes courses and projects for front end development and Wordpress" />
 
           <title>{ siteTitle }</title>
-
+          <FaviconMetaData></FaviconMetaData>
           <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway:400,800|Fredoka+One" rel="stylesheet" />
-          <link rel="icon" type="image/png" sizes="56x56" href="/static/images/fav-icon/favicon.png" />
+          <link rel="icon" type="image/png" href={fav} />
         </Helmet>
 
         <div>{this.props.children}</div>

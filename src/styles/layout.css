@@ -99,8 +99,9 @@ input.form-control {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   
-  section {
-    margin-top: 1em;
+  section:not('#foundation-class') {
+    margin-top: 5em;
+    margin-bottom: 8em;
   }
   
   h1,

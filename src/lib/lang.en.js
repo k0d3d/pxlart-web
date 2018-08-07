@@ -26,21 +26,22 @@ export const lang = {
     ctaButtonText: 'Enroll Today',
   },
   webinars: {
-    content: `
+    content: returnCleanHtml(`
         <p>
-          Twice a month, we host a live webinar on Hangouts / Skype / Slack.<br />
+          Twice a month, we host a live coding webinar on Hangouts / Zoom / Slack.<br />
           Here you can discuss project ideas, career advice, money making ideas,
           annoying problems and learn from expert instructors and with other
           trainees.<br />
-          Its a great way to fill in the blanks. Webinar sessions are usually
-          within working hours and last about 3 hours.
+          Its a great way to fill in the blanks. 
         </p>
         <p>
-          Webinar sessions are free for trainees and $5 for non-trainees.<br/> If
-          this is your first time, you get a free session. <br />Register below and we
-          will send you the invitation link to join.
+          Live coding webinar sessions cost $10 per month to sign up.<br />
+          Sessions happen on 12am Wednesday and 4pm Friday.
         </p>    
-    ` 
+    ` )
+  },
+  clientSection: {
+    title: returnCleanHtml('Clients <br />we worked for')
   },
   foundationClass: {
     teaserText: returnCleanHtml('Enrollment is open for <br />August'),

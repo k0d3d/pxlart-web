@@ -10,9 +10,10 @@
 }
 
 .full-image-t .col-p {
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 40px;
+background-color: #fff;
+    margin-bottom: 40px;
+    padding: 0 20px;
+    margin-top: 50px;
 }
 .full-image-t .smaller-text {
   font-size: 0.9em;

@@ -29,7 +29,7 @@ const FoundationClassSection = () => (
                 <article>
                   This course is designed for entry level programmers. Our
                   curriculum is 100% remote. This means you can take lessons and
-                  video trainings from your comfort. <br />
+                  video trainings anywhere you're comfortable. <br />
                   <br />
                 </article>
               </div>
@@ -50,7 +50,8 @@ const FoundationClassSection = () => (
                 <article>
                   We can guarantee after completing our training programs, you
                   can start your own freelance web design gigs or a blog or a
-                  personal project you have been dreaming about.
+                  personal project you have been dreaming about. You are also equipped
+                  to get a job at local and international software companies.
                 </article>
               </div>
             </div>
@@ -60,7 +61,7 @@ const FoundationClassSection = () => (
             <div className="col">
               <ButtonBtn
                 href="https://paystack.com/pay/intro2js"
-                className="d-inline-block text-center"
+                className="d-inline-block text-center float-right"
                 btnred
                 btnhomeherocta
                 atag

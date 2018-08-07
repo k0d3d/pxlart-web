@@ -1,10 +1,28 @@
 #contact-section {
+  
   background: var(--maincolor);
+  background-color: #21D4FD;
+  background: linear-gradient(19deg, #21D4FD 0%, #B721FF80 100%), url(cytonn-photography-604668-unsplash.jpg); 
   color: white;
-  min-height: 437px;
+  min-height: 495px;
+  background-size: cover;
 }
 
 #contact-section strong {
   color: var(--secondarycolor);
 }
 
+
+
+.clipped-bg {
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+  .clipped-bg {
+    -webkit-clip-path: polygon(100% 33%, 100% 100%, 0 74%, 0 0);
+    clip-path: polygon(100% 33%, 100% 100%, 0 74%, 0 0);
+  }
+}

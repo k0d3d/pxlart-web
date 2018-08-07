@@ -1,5 +1,5 @@
 import React from 'react'
-import _ from 'lodash'
+import kebabCase from 'lodash/kebabCase'
 import styled from 'styled-components'
 import TrainingCard from '../../cards'
 
@@ -9,9 +9,10 @@ import Lessons from '../../../containers/lessons'
 import './index.css'
 
 const StyledColp = styled.div`
-  background-color: white;
-  padding: 20px;
+  background-color: #fff;
   margin-bottom: 40px;
+  padding: 0 20px;
+  margin-top: 50px;
 `
 
 /**
@@ -33,10 +34,10 @@ const Cbvp = () => (
             <p className="smaller-text">
               Our courses are holistic and leave nothing out. <br />
               Our intention is to take you through every step in creating fully
-              working IT solution.
+              working web solutions.
               <br />
-              Most of our projects are Javascript application but we also have
-              projects that depend on Python scripts, Redis servers and even
+              Most of our projects are Javascript application but we also train 
+              you on how to build apps that depend on Python scripts, Redis servers and even
               Elastic Search. <br />
             </p>
           </div>
@@ -46,7 +47,7 @@ const Cbvp = () => (
             return (
               <div
                 className="col-md-6 col-sm-12"
-                key={_.kebabCase(p.cardTitle) + i.toString()}
+                key={kebabCase(p.cardTitle) + i.toString()}
               >
                 <TrainingCard cardMeta={p} />
               </div>

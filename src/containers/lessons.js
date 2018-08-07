@@ -42,7 +42,7 @@ const Lessons = [
       'Foundation Class in Programming using Javascript - an entry level training on how to code for beginners.',
     repo: 'https://github.com/k0d3d/stuffs',
     stack: ['HTML5', 'CSS3', 'Javascript / ES6', 'Bash / CMD', 'Toolchain'],
-    isEarlyPrice: 20000,
+    isEarlyPrice: 30000,
     completedPrice: 30000,
     paymentPageUrl: 'https://paystack.com/pay/intro2js',
     buttonText: 'Enroll now',
@@ -99,7 +99,7 @@ const Lessons = [
     title: 'iXit Bot',
     slug: 'ixit-bot',
     description:
-      "iXit web scraper codename IASS , Built in Python's Scrapy and also in NodeJs using multiple scraping engines including PhantomJs ",
+      "A webpage spider and scraper. Built in Python's Scrapy and also in NodeJs using multiple scraping engines including PhantomJs ",
     repo: 'https://github.com/k0d3d/ixitbot',
     stack: [
       'Redis',

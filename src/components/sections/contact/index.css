@@ -12,7 +12,10 @@
   color: var(--secondarycolor);
 }
 
-
+#contact-section h2 {
+  font-size: 5vh;
+  padding-top: 3.5rem;
+}
 
 .clipped-bg {
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);

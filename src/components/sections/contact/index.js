@@ -9,19 +9,19 @@ const ContactSection = () => (
         
       </div>
       <div className="col-md-6 col-sm-12">
-        <h2 className="pt-5">
+        <h2 className="">
           Contacts and <br />
           Questions
         </h2>
 
-        <h5 className="">
+        <h6 className="">
           We reply to emails in 24 hours &nbsp;
           <strong>services@pxlart.design</strong>.
-        </h5>
-        <h5>
+        </h6>
+        <p>
           You can live chat with us right here on the site using the live chat
           floating button at the bottom right of this page.
-        </h5>
+        </p>
       </div>
       <div className="col-md-3 d-xs-none">
       

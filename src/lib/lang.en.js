@@ -41,7 +41,7 @@ export const lang = {
     ` )
   },
   clientSection: {
-    title: returnCleanHtml('Clients <br />we worked for')
+    title: returnCleanHtml('Clients we worked  <br />for')
   },
   foundationClass: {
     teaserText: returnCleanHtml('Enrollment is open for <br />August'),

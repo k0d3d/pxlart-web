@@ -21,11 +21,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 #titles
 {
 	position: absolute;
-	width: 18em;
+	width: 10em;
 	height: 35em;
 	bottom: 0;
 	left: 50%;
-	margin-left: -9em;
+	margin-left: -5em;
 	font-size: 350%;
 	text-align: justify;
 	overflow: hidden;
@@ -73,11 +73,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 {
 	position: absolute;
 	top: 100%;
-	-webkit-animation: scroll 70s linear 2s infinite;
-	-moz-animation: scroll 70s linear 2s infinite;
-	-ms-animation: scroll 70s linear 2s infinite;
-	-o-animation: scroll 70s linear 2s infinite;
-	animation: scroll 70s linear 2s infinite;
+	-webkit-animation: scroll 50s linear 0.5s infinite;
+	-moz-animation: scroll 50s linear 0.5s infinite;
+	-ms-animation: scroll 50s linear 0.5s infinite;
+	-o-animation: scroll 50s linear 0.5s infinite;
+	animation: scroll 50s linear 0.5s infinite;
 }
 
 /* animation */

@@ -28,9 +28,8 @@ const ScrollList = styled.div`
 `
 const StyledItem = styled.span`
   background-color: white;
-  border-color: #343a4059;
   &:hover {
-    color: white;
+    color: grey;
   }
 `
 
@@ -76,7 +75,7 @@ const listOfClients = [
     story: '',
   },
   {
-    name: 'Multi Vantagae Media',
+    name: 'Multi Vantage Media',
     story: '',
   },
   {
@@ -105,10 +104,42 @@ const listOfClients = [
   },
   {
     name: 'First Class Verifications',
+    story: '',
+  },
+  {
+    name: 'Jan7 Clothing',
+    story: '',
+  },
+  {
+    name: 'Views and Tunes',
+    story: '',
+  },
+  {
+    name: 'Chorppyz Records',
+    story: '',
+  },
+  {
+    name: 'Emplug Limited',
+    story: '',
+  },
+  {
+    name: 'BWE',
+    story: '',
+  },
+  {
+    name: 'El Castillo Homes',
+    story: '',
+  },
+  {
+    name: 'Frost Water',
     story: ''
   },
   {
-    name: 'Jan7 CLothing',
+    name: 'Zahari Properties',
+    story: ''
+  },
+  {
+    name: 'VMWBO News',
     story: ''
   }
 ]

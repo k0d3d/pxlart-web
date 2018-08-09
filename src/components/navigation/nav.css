@@ -4,4 +4,10 @@
 .navbar {
   background-color: white; 
 }
-
+.show .dropdown-menu {
+    display: block;
+    position: absolute;
+    border: none;
+    top: 24px;
+    /* background: transparent; */
+}

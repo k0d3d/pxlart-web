@@ -39,7 +39,7 @@ class TemplateWrapper extends React.Component {
 
           <title>{ siteTitle }</title>
           <FaviconMetaData></FaviconMetaData>
-          <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway:400,800|Fredoka+One" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa|Raleway:400,800|Catamaran:800" rel="stylesheet" />
           <link rel="icon" type="image/png" href={fav} />
         </Helmet>
 

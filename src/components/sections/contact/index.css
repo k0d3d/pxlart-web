@@ -25,7 +25,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     
   .clipped-bg {
-    -webkit-clip-path: polygon(100% 33%, 100% 100%, 0 74%, 0 0);
-    clip-path: polygon(100% 33%, 100% 100%, 0 74%, 0 0);
+    -webkit-clip-path: polygon(100% 0%, 100% 100%, 0 74%, 0 0);
+    clip-path: polygon(100% 0%, 100% 100%, 0 74%, 0 0);
   }
 }

@@ -5,21 +5,21 @@ import styled from 'styled-components'
 
 import './index.css'
 
-const gradients = [
-  { 
-    backgroundColor: '#52ACFF',
-    backgroundImage: 'linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%)'
-  },
-  {
-    backgroundColor: '#FAACA8',
-    backgroundImage: 'linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%)'
-  },
-  {
-    backgroundColor: '#FEE140',
-    backgroundImage: 'linear-gradient(90deg, #FEE140 0%, #FA709A 100%)'
+// const gradients = [
+//   { 
+//     backgroundColor: '#52ACFF',
+//     backgroundImage: 'linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%)'
+//   },
+//   {
+//     backgroundColor: '#FAACA8',
+//     backgroundImage: 'linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%)'
+//   },
+//   {
+//     backgroundColor: '#FEE140',
+//     backgroundImage: 'linear-gradient(90deg, #FEE140 0%, #FA709A 100%)'
 
-  }
-]
+//   }
+// ]
 
 const clientSectionLanguage = lang.clientSection
 const ScrollList = styled.div`
@@ -27,7 +27,7 @@ const ScrollList = styled.div`
   
 `
 const StyledItem = styled.span`
-  background-color: white;
+  
   &:hover {
     color: grey;
   }
@@ -147,10 +147,10 @@ const listOfClients = [
 const ClientSection = () => (
   <section id="client-section">
     <div className="row">
-      <div className="col-md-3">
-        <h2>{ clientSectionLanguage.title }</h2>
+      <div className="col-md-12">
+        <h2 className="text-center">{ clientSectionLanguage.title }</h2>
       </div>
-      <div className="col-md-9 col-scroll">
+      <div className="col-md-12 col-scroll">
         <ScrollList id="titles">
           <div className="scroll-list titlecontent">
             {

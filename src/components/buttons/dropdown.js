@@ -5,7 +5,7 @@ import { StyledBtnBlueOutline } from './styles'
 
 
 const DropdownBtn = props => (
-  <div className="dropdown">
+  <div className={props.showmenu ? 'dropdown show' : 'dropdown'}>
     <StyledBtnBlueOutline
       className="btn"
       type="button"
@@ -29,11 +29,9 @@ const DropdownBtn = props => (
         </svg>
       </figure>
     </StyledBtnBlueOutline>
-    <div className="dropdown-menu">
-      {/* <a className="dropdown-item" href="#">Action</a>
-      <a className="dropdown-item" href="#">Another action</a>
-      <a className="dropdown-item" href="#">Something else here</a> */}
-    </div>
+    {props.showmenu ? (
+      <div className="dropdown-menu">{props.children}</div>
+    ) : null}
   </div>
 )
 

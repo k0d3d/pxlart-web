@@ -13,7 +13,7 @@ const returnCleanHtml = (str) => {
 // ]
 
 export const lang = {
-  siteTitle: 'Learn Javascript at CodeCamp 2016| Pxlart Design Training, Consulting and Development ',
+  siteTitle: 'Learn Javascript at CodeCamp 2018 | Pxlart Design Training, Consulting and Development ',
   metaDescription:
     'Learn to build high performance javascript applications.Our training includes courses and projects for front end development and Wordpress',
   metaKeywords:
@@ -43,6 +43,20 @@ export const lang = {
   clientSection: {
     title: returnCleanHtml('Clients we worked  <br />for')
   },
+  homeSection: {
+    title: returnCleanHtml(`
+      <span>We are </span>coming soon...
+    `),
+    content: returnCleanHtml(`
+    <p className="subtitle">
+            If you're thinking, where has all the fun stuff gone to ? <br />
+            Do not panic. Remain calm. <br />
+            We are putting in new sweet stuff into our website and
+            getting ready to serve you with an all new candy experience.
+            While you patiently wait for us, feel free to get to know what we have been up to below.
+                  </p>
+    `)
+  },
   foundationClass: {
     teaserText: returnCleanHtml('Enrollment is open for <br />August'),
     title: returnCleanHtml('Foundation Class in Programming <br />using Javascript'),
@@ -50,12 +64,32 @@ export const lang = {
     enrollBtn: 'Enroll Now for N30,000 per month',
     theHook: [
       {
-        title: 'What does this training offer',
-        text: returnCleanHtml(`This course is designed for entry level programmers. Our
-                  curriculum is 100% remote. This means you can take
-                  lessons and video trainings from your comfort. <br />
-                  <br />`)
+        title: 'What we offer here.',
+        content: `This course is designed for entry level programmers. Our
+                  curriculum is 100% remote.This means you can take lessons and
+                  video trainings anywhere you're comfortable. <br />`
       },
-    ],
+      {
+        title: 'From novice to pro',
+        content: `
+        Training Projects covers learning basic programming concepts
+                  all the way to interesting objectives like creating games and
+                  even building data driven applications.    
+        `
+      },
+      {
+        title: 'Our guarantees',
+        content: `We can guarantee after completing our training programs, you
+                  can start your own freelance web design gigs or a blog or a
+                  personal project you have been dreaming about. You are also equipped
+                  to get a job at local and international software companies.  `
+      }
+         
+    ].map(str => {
+      return {
+        title: returnCleanHtml(str.title),
+        content: returnCleanHtml(str.content)
+      }
+    }),
   },
 }

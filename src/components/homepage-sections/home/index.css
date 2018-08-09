@@ -1,0 +1,25 @@
+#home-section {
+  /* background: rgba(255, 255, 255,0.8), url(./images/alex-jones-6799-unsplash.jpg); */
+  /* background-size: contain, cover; */
+    min-height: 70vh;
+    margin-bottom: 2em;
+    background-image: url(./images/tim-stief-303045-unsplash.jpg);
+    background-position: 21% 28%;
+    background-size: 134%;
+}
+#home-section h1,
+#home-section p{
+  color: #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  #home-section {
+    background-position: -235px 1px;
+    background-size: 400%;
+    background-repeat: no-repeat;
+  }
+  #home-section h1,
+  #home-section p{
+    color: #000000;
+  }  
+}

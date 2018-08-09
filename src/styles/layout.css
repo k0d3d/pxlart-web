@@ -9,7 +9,7 @@
 
 :root {
   --fallbackfont: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
-  --headingfont: 'Fredoka One', var(--fallbackfont);
+  --headingfont: 'Catamaran', var(--fallbackfont);
   --buttonfont: 'Raleway', var(--fallbackfont);
   --documentfont: 'Comfortaa', var(--fallbackfont);
 }

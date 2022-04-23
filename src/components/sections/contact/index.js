@@ -16,7 +16,7 @@ const ContactSection = () => (
 
         <h6 className="">
           We reply to emails in 24 hours &nbsp;
-          <strong>services@pxlart.design</strong>.
+          <strong>services@pxlartdesign.com</strong>.
         </h6>
         <p>
           You can live chat with us right here on the site using the live chat

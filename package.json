@@ -47,5 +47,5 @@
     "type": "git",
     "url": "git@bitbucket.org:k0d3d_/pxlart-training.git"
   },
-  "engines": {"node": "14.18.3"}
+  "engines": {"node": "^14"}
 }

@@ -33,8 +33,7 @@
   },
   "keywords": [
     "gatsby"
-  ],
-  "license": "MIT",
+  ], "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -47,5 +46,6 @@
   "repository": {
     "type": "git",
     "url": "git@bitbucket.org:k0d3d_/pxlart-training.git"
-  }
+  },
+  "engines": {"node": "14.18.3"}
 }
